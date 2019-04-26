@@ -36,7 +36,7 @@ final internal class AppDelegate: UIResponder, UIApplicationDelegate {
         window?.makeKeyAndVisible()
         
         if UserDefaults.isFirstLaunch() {
-            // Enable Text Messages
+           
             UserDefaults.standard.set(true, forKey: "Text Messages")
         }
         
